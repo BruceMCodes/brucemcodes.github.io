@@ -1,0 +1,78 @@
+html {
+    background-color: rgba(179, 179, 179);
+    /* background-color: rgb(218, 218, 218); */
+    font-size: 1.75rem;
+    font-family: 'Bebas Neue';
+}
+header {
+    padding: 20px;
+    background-image: url(https://www.reconnectwithnature.org/getmedia/ac69931e-2e55-4e30-b0cc-e91d5a09aad2/MammatusClouds-Shutterstock-jpg.jpg);
+    background-size: cover;
+    background-position-y: 90%;
+}
+header:hover {
+    background-position-y: 95%;
+}
+.navDiv:hover {
+    background-color: rgba(220, 220, 220, 0.918);
+    box-shadow: 5px 10px 5px #a1a1a1d0;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px;
+}
+.navDiv, .topDiv {
+    background-color: rgba(220, 220, 220, 0.671);
+}
+.current {
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
+}
+.topDiv {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 16px;   
+}
+.topDiv h1 {
+    font-family: 'Beaked Tyrant Personal Use', sans-serif;   
+    font-size: 2rem;
+}
+.navWrapper {
+    text-align: center;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(218, 218, 218);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 0.75rem;
+}
+.contact {
+    display: inline;
+}
+.contactFull {
+    margin-top: 20px;
+    /* background-color: rgba(179, 179, 179, 0.822); */
+    background-color: rgb(218, 218, 218);
+    box-shadow: 5px 10px 5px #000000d0;
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 680px) {
+    .navWrapper {
+        display: block;
+    }
+    .contactFull {
+        font-size: 0.75rem;
+    }
+}
