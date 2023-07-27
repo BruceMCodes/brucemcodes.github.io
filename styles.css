@@ -61,6 +61,7 @@ footer {
     display: inline;
 }
 .contactFull {
+    font-size: 0.85rem;
     margin-top: 20px;
     /* background-color: rgba(179, 179, 179, 0.822); */
     background-color: rgb(218, 218, 218);
@@ -78,7 +79,8 @@ footer {
 }
 @media screen and (max-width: 500px) {
     .topDiv h1 {
-        font-size: 2.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.9rem;
     }
     .contactFull {
         font-size: 0.5rem;
