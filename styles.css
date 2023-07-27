@@ -102,6 +102,27 @@ footer {
     box-shadow: 5px 10px 5px #000000d0;
 
 }
+/* Form */
+form label, form input {
+    display: block;
+    padding: 10px;
+}
+/* Table */
+table {
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background-color: #6b6b6bd0;
+    margin-bottom: 30px;
+}
+td {
+    padding: 15px;
+    border: 1px solid black;
+}
+td:hover {
+    background-color: rgba(114, 114, 114, 0.877);
+}
 /* CSS dealing with images */
 img {
     width: 100%;
@@ -131,6 +152,11 @@ img {
 }
 
 /* Responsive design */
+@media screen and (max-width: 1100px) {
+    table {
+            display: none;
+        }
+}
 @media screen and (max-width: 950px) {
     .projects {
         grid-template-columns: 1fr 1fr;
